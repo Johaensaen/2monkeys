@@ -70,7 +70,7 @@ $(document).ready(function() {
 			ziely = Math.floor(Math.random()*10)*40+40;
 
 			punktestand1 = punktestand1 + 100;
-			$('#punktestand1').html('<b>SPIELER 1: </b>'+punktestand1);
+			$('#punktestand1').html('<b>SPIELER 1: </b><b>'+punktestand1+'</b>');
 		}
 		//Spieler 2
 		if(x2==zielx && y2==ziely) {
@@ -88,7 +88,7 @@ $(document).ready(function() {
 			ziely = Math.floor(Math.random()*10)*40+40;
 
 			punktestand2 = punktestand2 + 100;
-			$('#punktestand2').html('<b>SPIELER 2: </b>'+punktestand2);
+			$('#punktestand2').html('<b>SPIELER 2: </b><b>'+punktestand2+'</b>');
 		}
 	}
 
@@ -113,7 +113,7 @@ $(document).ready(function() {
 			ziel2y = Math.floor(Math.random()*10)*40+40;
 
 			punktestand1 = punktestand1 + 200;
-			$('#punktestand1').html('<b>SPIELER 1: </b>'+punktestand1);
+			$('#punktestand1').html('<b>SPIELER 1: </b><b>'+punktestand1+'</b>');
 		}
 
 		// Spieler 2
@@ -132,7 +132,7 @@ $(document).ready(function() {
 			ziel2y = Math.floor(Math.random()*10)*40+40;
 
 			punktestand2 = punktestand2 + 200;
-			$('#punktestand2').html('<b>SPIELER 2: </b>'+punktestand2);
+			$('#punktestand2').html('<b>SPIELER 2: </b><b>'+punktestand2+'</b>');
 		}
 	}
 
