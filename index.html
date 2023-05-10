@@ -1,38 +1,66 @@
 <!-- HTML ist vollständig von Kevin -->
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
   <meta charset="UTF-8">
   <title>2Monkeys</title>
   <meta http-equiv="cache-control" content="no-cache"> <!-- Soll keinen Cache anlegen -->
-  <script src="https://code.jquery.com/jquery-latest.min.js"></script>    <!-- aktualisiert die Bibliothek -->
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script> <!-- aktualisiert die Bibliothek -->
   <script src="figuren.js"></script>
   <link href="figuren.css" rel="stylesheet">
-	<link rel="shortcut icon" type="image/x-icon" href="/bilder/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="/bilder/favicon.ico">
 </head>
 
 <body>
-<center>
-<h1>2Monkeys</h1>
-<div id="spielbereich">
-  <canvas id="leinwand" width="600" height="480"></canvas>
-  <p>
-  <div id="punktestand1"><b>PLAYER 1: 0</b></div>
-  <div id="punktestand2"><b>PLAYER 2: 0</b></div>
-  </p>
-  <div id="spielzeit">PLAYINGTIME: 45</div>
-  <div id="spielendespieler1" align="center"><h1>PLAYER 1 is the king!</h1><img src="bilder/krone.png"><br><button onClick="window.location.reload();">Start again</button></div>
-  <div id="spielendespieler2" align="center"><h1>PLAYER 2 is the king!</h1><img src="bilder/krone.png"><br><button onClick="window.location.reload();">Start again</button></div>
-  <div id="spielende" align="center"><h1>TIME OVER Bratans!</h1><img src="bilder/timer.png"><br><button onClick="window.location.reload();">Start again</button></div>
-  <div id="gameover1" align="center"><h1>PLAYER 1 failed<br>Here you have a fish!</h1><img src="bilder/fisch.png"><br><button onClick="window.location.reload();">Start again</button></div>
-  <div id="gameover2" align="center"><h1>PLAYER 2 failed<br>Here you have a rat!</h1><img src="bilder/ratte.png"><br><button onClick="window.location.reload();">Start again</button></div>
-	<p>	
-	<i>PLAYER 1 is controlled by W,A,S and D.</i>
-	<br>
-	<i>PLAYER 2 is controlled by the arrow keys.</i>
-	</p>
-	</div>
-	</div>
-</center>
+  <center>
+    <h1>2Monkeys</h1>
+    <div id="spielbereich">
+      <canvas id="leinwand" width="600" height="480"></canvas>
+      <p>
+      <div id="punktestand1"><b>PLAYER 1: 0</b></div>
+      <div id="punktestand2"><b>PLAYER 2: 0</b></div>
+      </p>
+      <div id="spielzeit">PLAYINGTIME: 45</div>
+      <div id="spielendespieler1" align="center">
+        <h1>PLAYER 1 is the king!</h1><img width="50%" height="50%" src="bilder/krone.png">
+        <br>
+        <button onClick="window.location.reload();">Start
+          again</button>
+      </div>
+      <div id="spielendespieler2" align="center">
+        <h1>PLAYER 2 is the king!</h1><img width="50%" height="50%" src="bilder/krone.png">
+        <br>
+        <button onClick="window.location.reload();">Start
+          again</button>
+      </div>
+      <div id="spielende" align="center">
+        <h1>TIME OVER Bratans!</h1><img width="50%" height="50%" src="bilder/timer.png">
+        <br>
+        <button onClick="window.location.reload();">Start
+          again</button>
+      </div>
+      <div id="gameover1" align="center">
+        <h1>PLAYER 1 failed<br>Here you have a fish!</h1><img width="50%" height="50%" src="bilder/fisch.png">
+        <br>
+        <button
+          onClick="window.location.reload();">Start again</button>
+      </div>
+      <div id="gameover2" align="center">
+        <h1>PLAYER 2 failed<br>Here you have a rat!</h1><img width="50%" height="50%" src="bilder/ratte.png">
+        <br>
+        <button
+          onClick="window.location.reload();">Start again</button>
+      </div>
+      <p>
+        <i>PLAYER 1 is controlled by W,A,S and D.</i>
+        <br>
+        <i>PLAYER 2 is controlled by the arrow keys.</i>
+      </p>
+    </div>
+    <!-- <button onclick="window.location.href = 'https://xd.adobe.com/view/b722e31c-d932-4cf6-940f-06737ef752ea-e271/?fullscreen&hints=on';">XD Test</button> -->
+    </div>
+  </center>
 </body>
+
 </html>
